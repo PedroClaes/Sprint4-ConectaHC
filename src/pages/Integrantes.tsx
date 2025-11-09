@@ -4,19 +4,16 @@ import { TeamMember } from '../types';
 
 const teamMembers: TeamMember[] = [
   {
-    name: 'João Silva',
-    rm: 'RM12345',
-    class: 'Turma 1TDSPX',
+    name: 'Pedro Gabriel',
+    rm: 'RM566058',
+    class: 'Turma 1TDSPV',
+    photo: '/assets/pedro.jpg.jpeg',
   },
   {
-    name: 'Maria Santos',
-    rm: 'RM12346',
-    class: 'Turma 1TDSPX',
-  },
-  {
-    name: 'Pedro Oliveira',
-    rm: 'RM12347',
-    class: 'Turma 1TDSPX',
+    name: 'Artur Pioli',
+    rm: 'RM565587',
+    class: 'Turma 1TDSPV',
+    photo: '/assets/artur.jpg.jpeg', 
   },
 ];
 
@@ -39,10 +36,12 @@ export function Integrantes() {
               className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow"
             >
               <div className="flex flex-col items-center text-center">
-                <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-4">
-                  <span className="text-2xl font-bold text-white">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
+                <div className="w-20 h-20 rounded-full overflow-hidden mb-4">
+                  <img
+                    src={member.photo}
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
 

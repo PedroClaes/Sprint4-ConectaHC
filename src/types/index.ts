@@ -49,4 +49,5 @@ export interface TeamMember {
   name: string;
   rm: string;
   class: string;
+  photo?: string; 
 }

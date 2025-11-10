@@ -85,10 +85,10 @@ Copiar código
   👉 [https://sprint4-q8od.onrender.com/conectahc/api](https://sprint4-q8od.onrender.com/conectahc/api)
 
 - 🌐 **Deploy do Frontend (Vercel):**  
-  👉 [https://conectahc.vercel.app](https://conectahc.vercel.app)
+  👉 [https://conectahc.vercel.app](https://sprint4-conecta-hc.vercel.app)
 
 - 🎥 **Vídeo de Apresentação (YouTube):**  
-  👉 _(adicionar link do vídeo aqui)_
+  👉 _([adicionar link do vídeo aqui](https://www.youtube.com/watch?v=g1RfyhKLuRc))_
 
 ---
 
